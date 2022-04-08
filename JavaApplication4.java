@@ -52,6 +52,18 @@ public class JavaApplication4 {
                         "o tipo de triangulo é " + t.TipoTriangulo()+ "\n");
       
        
+           
+  Losango l=new Losango();
+       l.setLado1(5);
+       l.setLado2(10);
+       l.setLado3(5);
+       l.setLado4(5);
+       l.setDiagonal1(5);
+       l.setDiagonal2(5);
+       
+        System.out.printf(" area do losango " +  l.getArea() + "\n" +
+                        " o perimetro do losango "  +  l.getPerimetro() +"\n");
+    
     }
     
 }
